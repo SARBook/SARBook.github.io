@@ -2,7 +2,7 @@
 <html class="staticrypt-html">
 <head>
     <meta charset="utf-8">
-    <title>Protected Page</title>
+    <title>Introduction to Synthetic Aperture Radar Using Python and MATLAB</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- do not cache this page -->
@@ -52,7 +52,7 @@
         .staticrypt-form .staticrypt-decrypt-button {
             text-transform: uppercase;
             outline: 0;
-            background: #4CAF50;
+            background: #2E74C2;
             width: 100%;
             border: 0;
             padding: 15px;
@@ -62,7 +62,7 @@
         }
 
         .staticrypt-form .staticrypt-decrypt-button:hover, .staticrypt-form .staticrypt-decrypt-button:active, .staticrypt-form .staticrypt-decrypt-button:focus {
-            background: #43A047;
+            background: #2E74C2;
         }
 
         .staticrypt-html {
@@ -72,10 +72,10 @@
         .staticrypt-body {
             margin-bottom: 1em;
             background: #76b852; /* fallback for old browsers */
-            background: -webkit-linear-gradient(right, #76b852, #8DC26F);
-            background: -moz-linear-gradient(right, #76b852, #8DC26F);
-            background: -o-linear-gradient(right, #76b852, #8DC26F);
-            background: linear-gradient(to left, #76b852, #8DC26F);
+            background: -webkit-linear-gradient(right, #2E74C2, #508ED2);
+            background: -moz-linear-gradient(right, #2E74C2, #508ED2);
+            background: -o-linear-gradient(right, #2E74C2, #508ED2);
+            background: linear-gradient(to left, #2E74C2, #508ED2);
             font-family: "Arial", sans-serif;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
@@ -132,7 +132,7 @@
 <div class="staticrypt-page">
     <div class="staticrypt-form">
         <div class="staticrypt-instructions">
-            <p class="staticrypt-title">Protected Page</p>
+            <p class="staticrypt-title">Introduction to Synthetic Aperture Radar Using Python and MATLAB</p>
             <p></p>
         </div>
 
@@ -142,7 +142,7 @@
             <input id="staticrypt-password"
                    type="password"
                    name="password"
-                   placeholder="Passphrase"
+                   placeholder="access code"
                    autofocus/>
 
             <label id="staticrypt-remember-label" class="staticrypt-remember hidden">
@@ -152,7 +152,7 @@
                 Remember me
             </label>
 
-            <input type="submit" class="staticrypt-decrypt-button" value="DECRYPT"/>
+            <input type="submit" class="staticrypt-decrypt-button" value="Submit"/>
         </form>
     </div>
 
@@ -6158,9 +6158,9 @@
 
 <script>
     // variables to be filled when generating the file
-    var encryptedMsg = '0a700591831a70c7056cf47597156b6a811296e342a60f0190674603efb6b2eac241a97c4d184a40a5fed569663c2003U2FsdGVkX19turrTmRlS85GPY/Kb50lpNvIekQcdkpqR1H74M/kUbQRenWjX19Gc4zXfCefNfRY7aQ55U8SqqYTxvrS0nw/MTmGoovnpRXJbHdsA6BcCTNXFRbyfjjIoa8KxibrH/eNuBUIGX1nPfg==',
-        salt = '354d61aeaf645f283cb3718aba39404e',
-        isRememberEnabled = true,
+    var encryptedMsg = '23b6d25eedfd50e29efdf678ec8ab5f6fd1f13103684a7c3065f6c1ca43095fd2f1a6122926758efc6bc3fedbc5f7cf6U2FsdGVkX1+dZYn+mMjB52W/Q8pk71TVpXQIjtRVlvxVQ0YGTavsGGCVHdsKj1bpIk4cqcfnwuMzOfpov/mPqpYT2NArq3ZbTw76SAdLJc1U6GBkYONJrCCoAfr6etSrWJdP9ZtV32Kj+65Tqnmn1wL9yy/Rs3FTA+h70Y2dyeU=',
+        salt = '33b44a512c78695a42a2cbde3600effb',
+        isRememberEnabled = false,
         rememberDurationInDays = 0; // 0 means forever
 
     // constants
